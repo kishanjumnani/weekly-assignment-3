@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: #E5E5E5;
+    overflow-x: hidden;
+   
+}
+.wrap{
+    
+}
+
+header{
+
+    width: 100%;
+    /* image cropp krni hain yaad dena */
+    background-image: url("shoesa.jpg");
+    /* background: no-repeat ; */
+    background-size: cover;
+
+    z-index: 1;
+    height: 70vh;
+    
+}
+  nav{
+    width: 100%;
+    position: sticky
+    top:0;
+    
+}
+
+.upper_header { 
+    
+    
+    
+    background:linear-gradient(to right,#000,#E04A3A);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    box-shadow: 0 0 5px  black;
+    /* position:sticky;
+    top:0; */
+    
+}
+
+#sale{
+    
+    
+
+}
+nav{
+    
+    
+    background-color: whitesmoke;
+}
+ul{
+    position: absolute;
+    top:6vh;
+    z-index: 2;
+    
+    
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    height: 7vh;
+    color: white;
+    list-style: none;
+    align-items: center;
+    gap: 60px;
+    
+}
+input{
+    width: 80%;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    width:400%;
+    outline: none;
+    background-color: #E5E5E5;
+   
+}
+.placegap{
+    display: flex;
+    
+}
+button{
+    padding-left: 10px;
+    background-color: black;
+    color: blue;
+    border: none;
+    
+
+}
+.upper{
+    background-color: #A0A0A0;
+    padding-bottom: 15px;
+    margin: 25px 80px 25px;
+}
+.upper h2{
+    padding-left: 20px;
+    color:RGBA(0, 0, 0, 0.7);
+    font-size: 1.5rem;
+}
+/* .fa-solid fa-magnifying-glass{
+    color: blue;
+} */
+.trending_shoes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap :5px;
+    padding-left: 20px;
+    
+}
+.trending_shoes .product{
+    
+    left :5px;
+    
+    
+}
+ .trending_shoes .product img{
+    width: auto;
+    height: 130px;
+   background-color: #F2F2F2;
+   box-shadow: 8px 8px 8px #606060;
+   border-radius: 5px;
+  
+  
+
+}
+.price{
+    display: none;
+    
+}
+
+
+
+.product .name{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    background-color: #606060;
+    
+}
+
+.product :hover + .price{
+    display:contents;
+    font-size: 1.5rem;
+    color :#373737;
+    text-align: right;
+    
+    
+}
+    
+    /* display: block;
+    width: 50px;
+    height: 70px;
+    font-size: 14px;
+
+
+ 
+} */
+footer{
+    
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
+    
+    background:linear-gradient(to right,#434343,#383838,#222222,#0F0F0F,#010101);
+   
+
+}
+.container{
+    width: 80%;
+    
+    /* padding: 30px 30px 8% 12%; */
+    margin-left: 12%;
+    margin-right: 8%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    
+    
+
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right,#020100,#2B0E0B,#77271F,#AE392D,#DF493A);
+    
+    
+}
+ .container article{
+    width: 40%;
+     
+   
+    
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.container .shadimage img{
+    padding-right: 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    height:200px ;
+    border-radius: 50%;
+   
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
