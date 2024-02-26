@@ -16,7 +16,17 @@ background-image: url("shoesa.jpg");
  background-size: cover;
  z-index: 1;
 height: 70vh;
-width: 100%;  
+width: 100%;
+position: relative;  
+}
+header .sale{
+
+    position: absolute;
+    width: 40%;
+    top:40vh;
+    left: 10vw;
+    z-index: 2;
+    color: white;
 }
 .upper_header { 
     background:linear-gradient(to right,#000,#E04A3A);
